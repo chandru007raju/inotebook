@@ -1,0 +1,27 @@
+
+
+/* Glassmorphism card effect */
+.card {
+  padding: 50px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(168, 208, 254, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  z-index: 2;
+}
+
+.Link{
+  width: 37px;
+  padding: 2px;
+}
+.link2{
+  width: 41px;  padding: 2px;
+}
+.link3{
+  width: 37px;
+  padding: 3px;
+}
+.stack{
+  gap: 70%;
+}
